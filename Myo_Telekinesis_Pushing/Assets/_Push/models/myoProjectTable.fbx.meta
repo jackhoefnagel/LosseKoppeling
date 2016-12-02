@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 9e82a5647de389f4e916e22e244307c1
+timeCreated: 1480054800
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCylinder1
+    100004: polySurface2
+    100006: polySurface3
+    100008: group1
+    100010: group3
+    100012: lamps
+    100014: polySurface4
+    100016: polySurface5
+    100018: polySurface6
+    100020: polySurface7
+    100022: polySurface8
+    100024: polySurface9
+    100026: transform2
+    100028: dome
+    100030: lanes
+    100032: rim
+    100034: rimLight
+    100036: roof
+    100038: polySurface1
+    100040: transform1
+    100042: ground
+    100044: walls
+    400000: //RootNode
+    400002: pCylinder1
+    400004: polySurface2
+    400006: polySurface3
+    400008: group1
+    400010: group3
+    400012: lamps
+    400014: polySurface4
+    400016: polySurface5
+    400018: polySurface6
+    400020: polySurface7
+    400022: polySurface8
+    400024: polySurface9
+    400026: transform2
+    400028: dome
+    400030: lanes
+    400032: rim
+    400034: rimLight
+    400036: roof
+    400038: polySurface1
+    400040: transform1
+    400042: ground
+    400044: walls
+    2300000: //RootNode
+    2300002: pCylinder1
+    2300004: polySurface2
+    2300006: polySurface3
+    2300008: lamps
+    2300010: polySurface4
+    2300012: polySurface5
+    2300014: polySurface6
+    2300016: polySurface7
+    2300018: polySurface8
+    2300020: polySurface9
+    2300022: dome
+    2300024: lanes
+    2300026: rim
+    2300028: rimLight
+    2300030: roof
+    2300032: polySurface1
+    2300034: ground
+    2300036: walls
+    3300000: //RootNode
+    3300002: pCylinder1
+    3300004: polySurface2
+    3300006: polySurface3
+    3300008: lamps
+    3300010: polySurface4
+    3300012: polySurface5
+    3300014: polySurface6
+    3300016: polySurface7
+    3300018: polySurface8
+    3300020: polySurface9
+    3300022: dome
+    3300024: lanes
+    3300026: rim
+    3300028: rimLight
+    3300030: roof
+    3300032: polySurface1
+    3300034: ground
+    3300036: walls
+    4300000: pCylinder1
+    4300002: pCube2
+    4300004: polySurface2
+    4300006: polySurface3
+    4300008: polySurface4
+    4300010: polySurface5
+    4300012: polySurface6
+    4300014: polySurface7
+    4300016: polySurface8
+    4300018: polySurface9
+    4300020: lamps
+    4300022: dome
+    4300024: rim
+    4300026: rimLight
+    4300028: lanes
+    4300030: roof
+    4300032: polySurface1
+    4300034: ground
+    4300036: walls
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

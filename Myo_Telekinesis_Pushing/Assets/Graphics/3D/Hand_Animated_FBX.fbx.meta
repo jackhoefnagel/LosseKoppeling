@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 757a3ad0d91bd43ba8d326dfa6f8d2d7
+timeCreated: 1472915369
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Forefinger_1
+    100002: Forefinger_2
+    100004: Forefinger_3
+    100006: Forefinger_3_end
+    100008: Forefinger_IK
+    100010: Forefinger_IK_end
+    100012: Hand
+    100014: //RootNode
+    100016: Hand_Physical
+    100018: Middle_finger_1
+    100020: Middle_finger_2
+    100022: Middle_finger_3
+    100024: Middle_finger_3_end
+    100026: Middle_finger_IK
+    100028: Middle_finger_IK_end
+    100030: Palm_2
+    100032: Palm_3
+    100034: Palm_Forefinger
+    100036: Palm_Pinky
+    100038: Palm_Thumb
+    100040: Pinky_1
+    100042: Pinky_2
+    100044: Pinky_3
+    100046: Pinky_3_end
+    100048: Pinky_IK
+    100050: Pinky_IK_end
+    100052: Ring_finger_1
+    100054: Ring_finger_2
+    100056: Ring_finger_3
+    100058: Ring_finger_3_end
+    100060: Ring_finger_IK
+    100062: Ring_finger_IK_end
+    100064: Root
+    100066: Thumb_1
+    100068: Thumb_2
+    100070: Thumb_2_end
+    100072: Thumb_IK
+    100074: Thumb_IK_end
+    400000: Forefinger_1
+    400002: Forefinger_2
+    400004: Forefinger_3
+    400006: Forefinger_3_end
+    400008: Forefinger_IK
+    400010: Forefinger_IK_end
+    400012: Hand
+    400014: //RootNode
+    400016: Hand_Physical
+    400018: Middle_finger_1
+    400020: Middle_finger_2
+    400022: Middle_finger_3
+    400024: Middle_finger_3_end
+    400026: Middle_finger_IK
+    400028: Middle_finger_IK_end
+    400030: Palm_2
+    400032: Palm_3
+    400034: Palm_Forefinger
+    400036: Palm_Pinky
+    400038: Palm_Thumb
+    400040: Pinky_1
+    400042: Pinky_2
+    400044: Pinky_3
+    400046: Pinky_3_end
+    400048: Pinky_IK
+    400050: Pinky_IK_end
+    400052: Ring_finger_1
+    400054: Ring_finger_2
+    400056: Ring_finger_3
+    400058: Ring_finger_3_end
+    400060: Ring_finger_IK
+    400062: Ring_finger_IK_end
+    400064: Root
+    400066: Thumb_1
+    400068: Thumb_2
+    400070: Thumb_2_end
+    400072: Thumb_IK
+    400074: Thumb_IK_end
+    4300000: Hand
+    7400000: Hand_Twitch
+    7400002: Hand_Idle
+    9500000: //RootNode
+    13700000: Hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hand_Twitch
+      takeName: Hand_Physical|ArmatureAction.001
+      firstFrame: 40
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Hand_Physical
+        weight: 1
+      - path: Hand_Physical/Forefinger_IK
+        weight: 1
+      - path: Hand_Physical/Forefinger_IK/Forefinger_IK_end
+        weight: 1
+      - path: Hand_Physical/Middle_finger_IK
+        weight: 1
+      - path: Hand_Physical/Middle_finger_IK/Middle_finger_IK_end
+        weight: 1
+      - path: Hand_Physical/Pinky_IK
+        weight: 1
+      - path: Hand_Physical/Pinky_IK/Pinky_IK_end
+        weight: 1
+      - path: Hand_Physical/Ring_finger_IK
+        weight: 1
+      - path: Hand_Physical/Ring_finger_IK/Ring_finger_IK_end
+        weight: 1
+      - path: Hand_Physical/Root
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1/Ring_finger_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1/Ring_finger_2/Ring_finger_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1/Ring_finger_2/Ring_finger_3/Ring_finger_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1/Middle_finger_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1/Middle_finger_2/Middle_finger_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1/Middle_finger_2/Middle_finger_3/Middle_finger_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1/Forefinger_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1/Forefinger_2/Forefinger_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1/Forefinger_2/Forefinger_3/Forefinger_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1/Pinky_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1/Pinky_2/Pinky_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1/Pinky_2/Pinky_3/Pinky_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb/Thumb_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb/Thumb_1/Thumb_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb/Thumb_1/Thumb_2/Thumb_2_end
+        weight: 1
+      - path: Hand_Physical/Thumb_IK
+        weight: 1
+      - path: Hand_Physical/Thumb_IK/Thumb_IK_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hand_Idle
+      takeName: Hand_Physical|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Hand_Physical
+        weight: 1
+      - path: Hand_Physical/Forefinger_IK
+        weight: 1
+      - path: Hand_Physical/Forefinger_IK/Forefinger_IK_end
+        weight: 1
+      - path: Hand_Physical/Middle_finger_IK
+        weight: 1
+      - path: Hand_Physical/Middle_finger_IK/Middle_finger_IK_end
+        weight: 1
+      - path: Hand_Physical/Pinky_IK
+        weight: 1
+      - path: Hand_Physical/Pinky_IK/Pinky_IK_end
+        weight: 1
+      - path: Hand_Physical/Ring_finger_IK
+        weight: 1
+      - path: Hand_Physical/Ring_finger_IK/Ring_finger_IK_end
+        weight: 1
+      - path: Hand_Physical/Root
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1/Ring_finger_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1/Ring_finger_2/Ring_finger_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_2/Ring_finger_1/Ring_finger_2/Ring_finger_3/Ring_finger_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1/Middle_finger_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1/Middle_finger_2/Middle_finger_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_3/Middle_finger_1/Middle_finger_2/Middle_finger_3/Middle_finger_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1/Forefinger_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1/Forefinger_2/Forefinger_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Forefinger/Forefinger_1/Forefinger_2/Forefinger_3/Forefinger_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1/Pinky_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1/Pinky_2/Pinky_3
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Pinky/Pinky_1/Pinky_2/Pinky_3/Pinky_3_end
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb/Thumb_1
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb/Thumb_1/Thumb_2
+        weight: 1
+      - path: Hand_Physical/Root/Palm_Thumb/Thumb_1/Thumb_2/Thumb_2_end
+        weight: 1
+      - path: Hand_Physical/Thumb_IK
+        weight: 1
+      - path: Hand_Physical/Thumb_IK/Thumb_IK_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
