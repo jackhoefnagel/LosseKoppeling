@@ -6,7 +6,7 @@ public class AccelerometerScript : MonoBehaviour {
     //Assign the myo object
     [Header("Myo")]
     public GameObject MyoData = null;
-    private ThalmicMyo myoDataScript;
+    public ThalmicMyo myoDataScript;
 
     //Options
     [Header("Options")]
@@ -26,6 +26,9 @@ public class AccelerometerScript : MonoBehaviour {
     bool punch = false;
     List<float> punchSpeeds;
     List<float> punchStrenghts;
+
+    public float LastStrength = 0;
+    public float LastSpeed = 0;
 
     //Spring
     SpringJoint spring;
@@ -47,6 +50,9 @@ public class AccelerometerScript : MonoBehaviour {
     {
         float _velocity = CalculateAcceleration();
         float _strength = CalculateStrength();
+
+        LastStrength = _strength;
+        LastSpeed = _velocity;
 
         Debug.DrawLine(transform.position, transform.forward * 10);
 
@@ -113,19 +119,13 @@ public class AccelerometerScript : MonoBehaviour {
         {
             if (punch)
             {
-                Debug.LogWarning("Punch");
-                Debug.Log("Speed: " + Mathf.Max(punchSpeeds.ToArray()));
-                Debug.Log("Strength: " + Mathf.Max(punchStrenghts.ToArray()));
+                 Debug.LogWarning("Punch");
+                 //Debug.Log("Speed: " + Mathf.Max(punchSpeeds.ToArray()));
+                 //Debug.Log("Strength: " + Mathf.Max(punchStrenghts.ToArray()););
 
                 ResetPunchData();
             }
         }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Object"))
-            myoDataScript.NotifyUserAction();
     }
 
     /// <summary>
