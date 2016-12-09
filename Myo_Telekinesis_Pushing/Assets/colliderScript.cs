@@ -9,8 +9,6 @@ public class colliderScript : MonoBehaviour {
 
     void Start()
     {
-        if(parentObject == null)
-            parentObject = transform.parent.gameObject;
 
         laneScript = parentObject.GetComponent<laneScript>();
     }

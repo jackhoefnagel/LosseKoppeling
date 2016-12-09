@@ -8,13 +8,26 @@ public class soundScript : MonoBehaviour {
     AudioSource movingSound;
     Rigidbody rb;
 
+    bool makeSound = false;
+
     void Start()
     {
         movingSound = transform.GetComponent<AudioSource>();
         rb = transform.GetComponent<Rigidbody>();
     }
 
+    void OnCollisionEnter (Collision other)
+    {
+        if(other.transform.tag == "ground")
+        {
+            makeSound = true;
+        }
+    }
+
 	void FixedUpdate () {
+        if (!makeSound)
+            return;
+
         speed = rb.velocity.magnitude;
 
         movingSound.volume = 0.15f * speed * (rb.mass/10);

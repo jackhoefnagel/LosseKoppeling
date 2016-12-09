@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class laneScript : MonoBehaviour {
 
+    spawnObjectScript spawnObjectScript;
     public GameObject laneObject;
     private Material laneMaterial;
 
     public Texture[] emissions;
 
-    int pointNumber = 0;
+    public int pointNumber = 0;
 
     void Start()
     {
+        spawnObjectScript =  GetComponent<spawnObjectScript>();
+
         if (laneObject != null)
         {
             laneMaterial = laneObject.GetComponent<Renderer>().material;
@@ -32,9 +35,20 @@ public class laneScript : MonoBehaviour {
             laneMaterial.SetColor("_Color", Color.gray);
 
             GameScript.instance.Score -= 3;
+
+            pushScript.instance.InvokeNextObject(1f);
+            //Delete Object and spawn a new one
+            spawnObjectScript.InvokeDestroyObject(1f);
         } else
         {
             GameScript.instance.Score++;
         }
+    }
+
+    public void ResetLane()
+    {
+        pointNumber = 0;
+        laneMaterial.SetColor("_Color", Color.white);
+        laneMaterial.SetTexture("_EmissionMap", emissions[0]);
     }
 }

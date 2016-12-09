@@ -3,7 +3,14 @@ using System.Collections;
 using UnityStandardAssets.ImageEffects;
 
 public class pushScript : MonoBehaviour {
-    
+
+    public static pushScript instance = null;
+
+    void Awake()
+    {
+        instance = this;
+    }
+
     //Myo
     public GameObject MyoData = null;
     private ThalmicMyo myoDataScript;
@@ -126,16 +133,12 @@ public class pushScript : MonoBehaviour {
         {
             if (myoDataScript.gyroscope.z > nextValue && !isTurning)
             {
-                Debug.Log("Next");
-                isTurning = true;
-                currentRotation += (360 / amountOfObjects);
+                NextObject();
             }
 
             if (myoDataScript.gyroscope.z < -nextValue && !isTurning)
             {
-                Debug.Log("Previous");
-                isTurning = true;
-                currentRotation -= (360 / amountOfObjects);
+                PreviousObject();
             }
         }
         //Use arrows for moving
@@ -143,18 +146,35 @@ public class pushScript : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.RightArrow) && !isTurning)
             {
-                Debug.Log("Next");
-                isTurning = true;
-                currentRotation += (360 / amountOfObjects);
+                NextObject();
             }
 
             if (Input.GetKeyDown(KeyCode.LeftArrow) && !isTurning)
             {
-                Debug.Log("Previous");
-                isTurning = true;
-                currentRotation -= (360 / amountOfObjects);
+                PreviousObject();
             }
         }
+    }
+
+    public void InvokeNextObject(float time)
+    {
+        Invoke("NextObject", time);
+    }
+
+    //Turn player to the next object
+    public void NextObject()
+    {
+        Debug.Log("Next");
+        isTurning = true;
+        currentRotation += (360 / amountOfObjects);
+    }
+
+    //Turn player to the previous object
+    public void PreviousObject()
+    {
+        Debug.Log("Previous");
+        isTurning = true;
+        currentRotation -= (360 / amountOfObjects);
     }
 
     //Move the player
